@@ -1,0 +1,10 @@
+batch_size : 32
+train_path : "C://img//dogs_vs_cats//train"
+test_path : "C://img//Dogs and Cats//dataset//test_set"
+
+network : 
+    input_size : 3
+    output_size : 1
+    loss : nn.BCEWithLogitsLoss()
+    benchmark: True
+    use_amp : False
